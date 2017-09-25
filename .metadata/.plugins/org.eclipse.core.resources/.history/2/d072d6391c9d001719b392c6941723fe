@@ -1,0 +1,40 @@
+package stepDefinitions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TestSteps {
+	@Given("^navigate to GoalPlan$")
+	public void navigate_to_GoalPlan() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User logged in using username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
+	public void user_logged_in_using_username_as_and_password_as(String arg1, String arg2) throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^User should see the home page$")
+	public void user_should_see_the_home_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User logout from application$")
+	public void user_logout_from_application() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^user should see the Login page$")
+	public void user_should_see_the_Login_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+}

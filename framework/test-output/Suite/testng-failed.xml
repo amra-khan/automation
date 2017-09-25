@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="FirefoxTest">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.crossB.grid.Grid_2"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+  <test name="chromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crossB.grid.Grid_2"/>
+    </classes>
+  </test> <!-- chromeTest -->
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.crossB.grid.Grid_2">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="simpleTest"/>
+        </methods>
+      </class> <!-- com.crossB.grid.Grid_2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test name="chromeTest(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crossB.grid.Grid_2">
+        <methods>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="simpleTest"/>
+        </methods>
+      </class> <!-- com.crossB.grid.Grid_2 -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

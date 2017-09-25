@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.flipkart.pageObject.TestCase"/>
+      <class name="com.maven.flipkart.TestRunner"/>
+      <class name="stepDefinitions.TestCase"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.flipkart.pageObject.TestCase">
+        <methods>
+          <include name="swicthtoLoginWindow"/>
+          <include name="loginPageTest"/>
+          <include name="closeSetUp"/>
+          <include name="setUp"/>
+          <include name="ProductListTest"/>
+        </methods>
+      </class> <!-- com.flipkart.pageObject.TestCase -->
+      <class name="stepDefinitions.TestCase">
+        <methods>
+          <include name="setUp"/>
+          <include name="ProductListTest"/>
+          <include name="closeSetUp"/>
+        </methods>
+      </class> <!-- stepDefinitions.TestCase -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

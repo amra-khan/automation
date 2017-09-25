@@ -1,0 +1,52 @@
+package stepDefinitions;
+
+//import static org.testng.AssertJUnit.assertTrue;
+//import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+
+
+import com.maven.flipkart.*;
+
+public class TestCase extends FunctionalTests {
+	
+	 
+	@Test(priority = 0)
+	public void swicthtoLoginWindow() { 
+		HomePage home = new HomePage(driver);
+		   home.openLoginWindow();
+	}
+	
+	@Test(priority = 1)
+	public void loginPageTest() {
+		LoginPage login = new LoginPage(driver);
+	
+		login.enterEmailId("8750152322");
+		login.enterPassword("telnet@123");
+		login.clickLoginButton();
+		
+	}
+	
+	@Test(priority = 2)
+	public void ProductListTest() throws InterruptedException {
+		HomePage home = new HomePage(driver);
+		//Thread.sleep(5000);
+		home.searchProducts("adidas shoes");
+		home.clickSearchIcon();
+		
+		ProductList list = new ProductList(driver);
+		list.getProduct();
+		list.getProductName();
+	}
+	
+//	@Test(priority = 2)
+//	public void customerSupportTest() {
+//		HomePage home = new HomePage(driver);
+//		home.clickCustomerSupport();
+//		
+//		CustomerCare obj = new CustomerCare(driver);
+//		obj.clickEachIssue();
+//	}
+      
+	
+}

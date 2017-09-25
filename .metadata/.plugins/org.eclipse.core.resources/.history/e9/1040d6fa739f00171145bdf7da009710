@@ -1,0 +1,8 @@
+#
+#@tag
+#Feature: Customer Care Page
+#@tag1
+#Scenario: Customer Issue with highest queries
+#When User is on the customer Care page
+#Then if he clicks on every issue
+#And user clicks on every other

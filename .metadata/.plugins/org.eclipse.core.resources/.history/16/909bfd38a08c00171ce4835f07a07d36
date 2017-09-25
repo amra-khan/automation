@@ -1,0 +1,47 @@
+package com.excel;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.hssf.usermodel.*;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+public class ReadExceL {
+	private WebDriver driver;
+	private  static HSSFWorkbook workbook;
+	private static HSSFSheet sheet ;
+    
+	@Test(priority = 0)
+	public static  void setExcelFile() throws IOException {
+		
+		FileInputStream file = new FileInputStream(new File("C:\\Excel\\Test.xls"));
+		HSSFWorkbook workbook = new HSSFWorkbook(file);
+		HSSFSheet sheet = workbook.getSheetAt(0);
+		
+	}
+	
+	@Test(priority  = 1)
+	public static String getCellData(int rowNum , int colNum) {
+		return sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
+		
+	}
+	
+	@Test(priority = 2)
+	public static void  setExcelData(String result , int rowNum ,int colNum) throws IOException   {
+		  FileInputStream file = new FileInputStream(new File("C:\\Excel\\Test.xls"));
+		  HSSFWorkbook book = new HSSFWorkbook(file);
+			HSSFSheet sheet = book.getSheetAt(0);
+			sheet.createRow(0).createCell(3).setCellValue("Result");
+			sheet.createRow(rowNum).createCell(colNum).setCellValue(result);
+
+			FileOutputStream out = new FileOutputStream(new File("C:\\Excel\\Test.xls"));
+			book.write(out);
+			out.close();
+	}
+	
+	
+
+}

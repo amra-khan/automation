@@ -1,0 +1,10 @@
+Feature: Login Action
+
+Scenario: Successful login into application
+Given navigate to GoalPlan
+When User enters "amrak" and "amra@tester"
+Then User should see the home page
+
+Scenario: Successful Logout 
+When User logout from application
+Then user should see the Login page

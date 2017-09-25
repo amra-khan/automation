@@ -1,0 +1,82 @@
+07/07/2014 13:59:44 devpinoyLogger Executing the test : VerifyGoalSheetPage
+07/07/2014 13:59:44 devpinoyLogger Executing test case : Navigate to Goal Sheet page
+07/07/2014 13:59:44 devpinoyLogger Navigating to the test site - GPS ...
+07/07/2014 13:59:55 devpinoyLogger Asserting  title  where : Expected title = Login | www.ourgoalplan.com
+07/07/2014 13:59:55 devpinoyLogger Actual title = Login | www.ourgoalplan.com and matches with Expected title = Login | www.ourgoalplan.com
+07/07/2014 13:59:55 devpinoyLogger Navigated to the test site - GPS
+07/07/2014 13:59:55 devpinoyLogger Logging in to the test site - GPS
+07/07/2014 13:59:55 devpinoyLogger Successfully Retrieved data from Xls File :-  Username : sitamj and Password : mindfire1
+07/07/2014 13:59:55 devpinoyLogger Verifying whether Element : 'Username' Input-box is present
+07/07/2014 13:59:55 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:55 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:55 devpinoyLogger Element : 'Username' Input-box is present
+07/07/2014 13:59:55 devpinoyLogger Verifying whether Element : 'Password' Input-box is present
+07/07/2014 13:59:55 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:56 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:56 devpinoyLogger Element : 'Password' Input-box is present
+07/07/2014 13:59:56 devpinoyLogger Verifying whether Element : 'LogIn' Button is present
+07/07/2014 13:59:56 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:56 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:56 devpinoyLogger Element : 'LogIn' Button is present
+07/07/2014 13:59:56 devpinoyLogger Clearing field : 'Username' Input-box
+07/07/2014 13:59:56 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:57 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:57 devpinoyLogger Cleared : 'Username' Input-box
+07/07/2014 13:59:57 devpinoyLogger Sending Values in : 'Username' Input-box
+07/07/2014 13:59:57 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:57 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:57 devpinoyLogger Inputted 'sitamj' text into : 'Username' Input-box
+07/07/2014 13:59:57 devpinoyLogger Clearing field : 'Password' Input-box
+07/07/2014 13:59:57 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:58 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:58 devpinoyLogger Cleared : 'Password' Input-box
+07/07/2014 13:59:58 devpinoyLogger Sending Values in : 'Password' Input-box
+07/07/2014 13:59:58 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:58 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 13:59:59 devpinoyLogger Inputted 'mindfire1' text into : 'Password' Input-box
+07/07/2014 13:59:59 devpinoyLogger Clicking on : 'LogIn' Button
+07/07/2014 13:59:59 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 13:59:59 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 14:00:00 devpinoyLogger Clicked on : 'LogIn' Button
+07/07/2014 14:00:00 devpinoyLogger Clicked on the element : ''LogIn' Button and new page loaded with title : Login | www.ourgoalplan.com
+07/07/2014 14:00:00 devpinoyLogger Successfully logged in to the test site - GPS
+07/07/2014 14:00:00 devpinoyLogger Verifying GPS Goal Sheet page appears
+07/07/2014 14:00:00 devpinoyLogger Asserting  title  where : Expected title = Sitam Jana | Goal Sheet | www.ourgoalplan.com
+07/07/2014 14:00:00 devpinoyLogger Error while asserting title : expected:<[Sitam Jana | Goal Sheet] | www.ourgoalplan.c...> but was:<[Login] | www.ourgoalplan.c...>
+07/07/2014 14:00:00 devpinoyLogger Not navigated to the Goal Sheet page
+07/07/2014 14:00:00 devpinoyLogger ***Result of execution -- Fail : Error while asserting title : expected:<[Sitam Jana | Goal Sheet] | www.ourgoalplan.c...> but was:<[Login] | www.ourgoalplan.c...>
+07/07/2014 14:00:00 devpinoyLogger SCREENSHOT taken under : C:\Users\sitamj\Desktop\GPS\Reports\Suite1_TC1_TS1_navigateToGoalSheetPage0.jpg
+07/07/2014 14:00:00 devpinoyLogger Error came : null
+07/07/2014 14:00:01 devpinoyLogger Executing test case : Verify user details displayed on Goal Sheet page
+07/07/2014 14:00:01 devpinoyLogger Navigating to the test site - GPS ...
+07/07/2014 14:00:01 devpinoyLogger Asserting  title  where : Expected title = Login | www.ourgoalplan.com
+07/07/2014 14:00:01 devpinoyLogger Actual title = Login | www.ourgoalplan.com and matches with Expected title = Login | www.ourgoalplan.com
+07/07/2014 14:00:01 devpinoyLogger Navigated to the test site - GPS
+07/07/2014 14:00:01 devpinoyLogger Logging in to the test site - GPS
+07/07/2014 14:00:02 devpinoyLogger Successfully Retrieved data from Xls File :-  Username : sitamj and Password : mindfire1
+07/07/2014 14:00:02 devpinoyLogger Verifying whether Element : 'Username' Input-box is present
+07/07/2014 14:00:02 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 14:00:02 devpinoyLogger Waiting ends ... Web element loaded on the page
+07/07/2014 14:00:02 devpinoyLogger Error while verifying - 'Username' Input-box element Present : null
+07/07/2014 14:00:02 devpinoyLogger Verifying whether Element : 'Password' Input-box is present
+07/07/2014 14:00:02 devpinoyLogger Waiting for web element to load on the page
+07/07/2014 14:00:02 devpinoyLogger Error came : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'sitamwin7', ip: '172.16.238.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Session ID: 79788c1fd2ee0050f9d5e5fbb41fa69e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sitamj\AppData\Local\Temp\scoped_dir4360_28009}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
+07/07/2014 14:00:03 devpinoyLogger Error came : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=35.0.1916.153)
+  (Driver info: chromedriver=2.10.267521,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'sitamwin7', ip: '172.16.238.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_05'
+Session ID: 79788c1fd2ee0050f9d5e5fbb41fa69e
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\sitamj\AppData\Local\Temp\scoped_dir4360_28009}, rotatable=false, locationContextEnabled=true, version=35.0.1916.153, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, nativeEvents=true, webStorageEnabled=true, applicationCacheEnabled=false, takesScreenshot=true}]
